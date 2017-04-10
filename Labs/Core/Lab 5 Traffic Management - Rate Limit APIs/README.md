@@ -41,6 +41,7 @@ Note: As you will have already completed the *API Security - Securing APIs with 
     <StartTime>2017-02-13 12:00:00</StartTime>
 </Quota>
 ```
+Or you can copy paste from [here](https://gist.github.com/anubis05/eb8bc8b71542a9d4a0cd04ef193d7837)
 
 * Your API Proxy should now look like this:
 

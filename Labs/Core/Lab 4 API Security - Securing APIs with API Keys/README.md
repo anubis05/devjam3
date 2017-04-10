@@ -164,6 +164,7 @@ An App Developer can create any number of Apps.  Each App can register for any n
     <APIKey ref="request.queryparam.apikey"/>
 </VerifyAPIKey>
 ```
+Or you can copy paste from [here] (https://gist.github.com/anubis05/fe582c43a7a64522eee08f42ab72d442)
 
 * **Save** the API Proxy.
 
