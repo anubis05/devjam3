@@ -22,12 +22,18 @@ Develop-> API BaaS
 This will open up a new window with Apigee BaaS
 Click on the develop tab.
 
-* Import the hotels collection: 
+* Import the hotels collection:
+Go to Devjam folder -> Resources -> hotels.json
+hotels.json is a json object containing a bunch of hotels data.
+We are going to import this data to create our first collection.
+ 
 Click Collections -> 	Click on the plus collection button 
 Copy and Paste the json object in the space below
 Give the collection a name of "hotels"
 
 * You can now access the collection at this URL: https://apibaas-trial.apigee.net/{org_name}/sandbox/hotels
+Where org_name is the name of the org you created
+
 
 Effectively you’ve called the GET API for the ‘hotels’ data collection by calling the above URL. Review the information
 presented in JSON format. This is the same information you previously saw on the BaaS portal.
@@ -37,7 +43,7 @@ by looking at the attribute "count" : 10
 
 * Now call the GET API as follows with the limits parameter
 
-http://api.usergrid.com/{your-org}/sandbox/hotels?limit=5
+https://apibaas-trial.apigee.net/{your-org}/sandbox/hotels?limit=5
 
 * Lets start exploring the query language built into BaaS. You can call the API like this:
 
