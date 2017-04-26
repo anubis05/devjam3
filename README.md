@@ -17,6 +17,7 @@ All of the material here is released under the [MIT license](./LICENSE.md)
 7. API Publishing - Developer Portal Customization
 8. Consume APIs
 9. API Analytics -Custom Reports
+10.API BaaS 
 
 NOTE : You can start with the first lab [1. API Design - Create a Reverse Proxy with OpenAPI specification](https://github.com/apigee/devjam3/tree/master/Labs/Core/Lab%201%20API%20Design%20-%20Create%20a%20Reverse%20Proxy%20with%20OpenAPI%20specification)
 
@@ -31,5 +32,6 @@ NOTE : You can start with the first lab [1. API Design - Create a Reverse Proxy 
 * API Development - Composite APIs
 * API Publishing - Packaging APIs
 * API Security - Securing APIs with OAuth (2-legged)
+* API BaaS 
 
 NOTE: Appendix items are optional.

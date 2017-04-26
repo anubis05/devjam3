@@ -29,9 +29,9 @@ We are going to import this data to create our first collection.
  
 Click Collections -> 	Click on the plus collection button 
 Copy and Paste the json object in the space below
-Give the collection a name of "hotels"
+Give the collection a name of "<Your_Initials>_hotels"
 
-* You can now access the collection at this URL: https://apibaas-trial.apigee.net/{org_name}/sandbox/hotels
+* You can now access the collection at this URL: https://apibaas-trial.apigee.net/{org_name}/sandbox/<Your_Initials>_hotels
 Where org_name is the name of the org you created
 
 
@@ -43,11 +43,11 @@ by looking at the attribute "count" : 10
 
 * Now call the GET API as follows with the limits parameter
 
-https://apibaas-trial.apigee.net/{your-org}/sandbox/hotels?limit=5
+https://apibaas-trial.apigee.net/{your-org}/sandbox/<Your_Initials>_hotels?limit=5
 
 * Lets start exploring the query language built into BaaS. You can call the API like this:
 
-https://apibaas-trial.apigee.net/{your-org}/sandbox/hotels?ql=select%20*%20where%20city=%27Burlingame%27
+https://apibaas-trial.apigee.net/{your-org}/sandbox/<Your_Initials>_hotels?ql=select%20*%20where%20city=%27Burlingame%27
 
 * Try a few of the following other queries to get a better
 understanding of how data querying works in BaaS:
